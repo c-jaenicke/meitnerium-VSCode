@@ -1,0 +1,21 @@
+{
+    "name": "meitnerium-theme",
+    "displayName": "Meitnerium Theme",
+    "description": "Custom color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Meitnerium",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Meitnerium-color-theme.json"
+            }
+        ]
+    }
+}
